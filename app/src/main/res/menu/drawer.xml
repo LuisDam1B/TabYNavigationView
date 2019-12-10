@@ -3,10 +3,30 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/navigation_item_attachment"
+            android:id="@+id/navigation_item_telefono"
             android:checked="true"
             android:icon="@drawable/ic_launcher_background"
             android:title="@string/app_name"/>
+        <item
+            android:id="@+id/navigation_item_tablets"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="Tablets"/>
+        <item
+            android:id="@+id/navigation_item_portatiles"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="Portatiles"/>
+
     </group>
+
+    <item android:title="Sub_Menu">
+        <menu>
+            <item
+                android:icon="@drawable/ic_launcher_background"
+                android:title="submenuitem1"/>
+            <item
+                android:icon="@drawable/ic_launcher_background"
+                android:title="submenuitem2"/>
+        </menu>
+    </item>
 
 </menu>
